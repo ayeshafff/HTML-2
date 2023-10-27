@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Customer Survey Form</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Customer Survey Form</h2>
+        <form id="surveyForm">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            
+            <label>Is this first time You are using our products & service?</label>
+            <div>
+                <input type="radio" name="firstTime" value="Yes" required> Yes
+                <input type="radio" name="firstTime" value="No" required> No
+            </div>
+
+            <label>Would you suggestion to your friends and colleague?</label>
+            <div>
+                <input type="radio" name="recommend" value="Yes" required> Yes
+                <input type="radio" name="recommend" value="No" required> No
+            </div>
+            
+            <label>How satisfied are you with our company overall?</label>
+            <div>
+                <input type="radio" name="satisfaction" value="Satisfied" required> Satisfied
+                <input type="radio" name="satisfaction" value="Undecided" required> Undecided
+                <input type="radio" name="satisfaction" value="Unsatisfied" required> Unsatisfied
+            </div>
+            
+            <textarea placeholder="Do you have suggestion to improve our service?" required></textarea>
+
+            <button type="submit">SUBMIT</button>
+        </form>
+        <footer>&copy;2018 Customer Survey Form. All Rights Reserved | Design by W3Layouts</footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
